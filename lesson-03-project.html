@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Masters - Checkout</title>
+    <link rel="stylesheet" href="lesson-03-project.css">
+</head>
+<body>
+    <div class="checkout">
+        
+        <header class="header">
+            <span class="header__icon">☕</span>
+            <span class="header__title">Coffee Masters</span>
+        </header>
+
+        <main class="content">
+            <section class="column">
+                <div class="card">
+                    <h2 class="card__title">Items</h2>
+
+                    <div class="item">
+                        <div class="item__quantity">1x</div>
+                        <div class="item__info">
+                            <div class="item__name">Cappucino</div>
+                            <div class="item__note">Lite foam</div>
+                        </div>
+                        <div class="item__price">$3.50</div>
+                    </div>
+
+
+                    
+                    <div class="item">
+                        <div class="item__quantity">1x</div>
+                        <div class="item__info">
+                            <div class="item__name">Cappucino</div>
+                            <div class="item__note">Lite milk</div>
+                            <div class="item__note">Double espresso</div>
+                        </div>
+                        <div class="item__price">$3.85</div>
+                    </div>
+
+
+                    
+                    <div class="item item__last">
+                        <div class="item__quantity">1x</div>
+                        <div class="item__info">
+                            <div class="item__name">Croissant</div>
+                            <div class="item__note">Butter</div>
+                        </div>
+                        <div class="item__price">$2.45</div>
+                    </div>
+
+                </div>
+            </section>
+
+
+            <section class="column">
+                <div class="card">
+                    <h2 class="card__title">Name</h2>
+                    <label class="field">
+                        <span class="field__label">Name for order</span>
+                        <input type="text" class="field__input" value="Ahmed Asif">
+                    </label>
+
+                </div>
+
+                <div class="card">
+                    <h2 class="card__title">Payment</h2>
+                    <label class="field">
+                        <span class="field__label">Card number</span>
+                        <input type="text" class="field__input field__input--short" value="001">
+                    </label>
+                    <label class="field">
+                        <span class="field__label">CVV number</span>
+                        <input type="text" class="field__input field__input--short1" value="001">
+                    </label>
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="summary">
+            <div class="summary__row">
+                <span>Subtotal:</span>
+                <span>$9.80</span>
+            </div>
+            <div class="summary__row">
+                <span>Tax:</span>
+                <span>$0.98</span>
+            </div>
+            <div class="summary__row summary__row--total">
+                <span>Total:</span>
+                <span>$10.78</span>
+            </div>
+
+            <button class="place-order">Place order</button>
+        </footer>
+        
+    </div>
+</body>
+</html>
