@@ -1,4 +1,2 @@
-# NASTP-git-demo
-First GIT and GITHUB project
-<br>
+Coffee Masters
 Author - Ahmed Asif
